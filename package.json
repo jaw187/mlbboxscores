@@ -1,0 +1,28 @@
+{
+  "name": "mlbboxscores",
+  "version": "0.0.1",
+  "description": "Retrieve MLB Boxscores for a given day",
+  "main": "lib/mlb.js",
+  "scripts": {
+    "test": "lab -v -m 9999"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaw187/mlbboxscores.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaw187/mlbboxscores/issues"
+  },
+  "homepage": "https://github.com/jaw187/mlbboxscores#readme",
+  "dependencies": {
+    "hoek": "3.x.x",
+    "insync": "2.x.x",
+    "wreck": "7.x.x"
+  },
+  "devDependencies": {
+    "code": "2.x.x",
+    "lab": "8.x.x"
+  }
+}
