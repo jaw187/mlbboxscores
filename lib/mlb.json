@@ -1,0 +1,13 @@
+{
+    "host": "gd2.mlb.com",
+    "protocol": "http",
+    "port": 80,
+    "basepath": "/components/game/mlb",
+    "files": {
+        "boxscore": "boxscore.json",
+        "game_events": "game_events.json",
+        "linescore": "linescore.json",
+        "plays": "plays.json",
+        "scoreboard": "master_scoreboard.json"
+    }
+}
