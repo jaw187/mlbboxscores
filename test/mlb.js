@@ -37,4 +37,23 @@ describe('Plays', function () {
             done();
         });
     });
+
+    it('Can get boxscores on day with one game', function (done) {
+
+        var options = {
+            path: 'year_2015/month_04/day_05/'
+        };
+
+        var mlb = new Mlb(options);
+
+        mlb.get(function (err, boxscores) {
+
+            expect(err).to.not.exist();
+
+            expect(boxscores).to.exist();
+            expect(boxscores.length).to.exist();
+
+            done();
+        });
+    });
 });
