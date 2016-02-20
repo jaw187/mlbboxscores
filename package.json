@@ -1,6 +1,6 @@
 {
   "name": "mlbboxscores",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Retrieve MLB Boxscores for a given day",
   "main": "lib/mlb.js",
   "scripts": {
