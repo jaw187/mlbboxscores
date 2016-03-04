@@ -34,6 +34,8 @@ describe('Plays', function () {
             expect(boxscores).to.exist();
             expect(boxscores.length).to.exist();
 
+            expect(boxscores[0].game_type).to.equal('R');
+
             done();
         });
     });
